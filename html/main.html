@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Regizori faimoși </title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+        $(document).ready(function (e) {
+            $('.button').on('mouseenter', function (e) {
+                x = e.pageX - $(this).offset().left;
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({
+                    top: y,
+                    left: x
+                });
+            })
+            $('.button').on('mouseout', function (e) {
+                x = e.pageX - $(this).offset().left;
+                y = e.pageY - $(this).offset().top;
+                $(this).find('span').css({
+                    top: y,
+                    left: x
+                });
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <section class="banner" id="landing-page">
+        <h1> Regizori faimoși </h1>
+        <p> Câțiva regizori care au schimbat lumea cinematografiei, care au impus noi modele în arta filmului
+            și care și-au marcat epoca prin talentul lor unic și inegalabil. Fiecare dintre acești regizori
+            a avut un impact enorm în tot ceea ce înseamnă cinematografie, iar acest site le este dedicat lor. </p>
+    </section>
+
+    <nav class="navbar">
+        <div class="menu">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+            <div class="line line-3"></div>
+        </div>
+
+        <ul class="nav-list">
+            <li class="nav-item"> <a href="#landing-page" class="nav-link"> Pagina Principală </a> </li>
+            <li class="nav-item"> <a href="#nolan" class="nav-link"> Christopher Nolan </a> </li>
+            <li class="nav-item"> <a href="#scorsese" class="nav-link"> Martin Scorsese </a> </li>
+            <li class="nav-item"> <a href="#spielberg" class="nav-link"> Steven Spielberg </a> </li>
+            <li class="nav-item"> <a href="#villeneuve" class="nav-link"> Denis Villeneuve </a> </li>
+            <li class="nav-item"> <a href="#tarantino" class="nav-link"> Quentin Tarantino </a> </li>
+            <li class="nav-item"> <a href="#hitchcock" class="nav-link"> Alfred Hitchcock </a> </li>
+            <li class="nav-item"> <a href="#pta" class="nav-link"> Paul Thomas Anderson </a> </li>
+            <li class="nav-item"> <a href="#fellini" class="nav-link"> Federico Fellini </a> </li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <section class="card" id="nolan" data-aos="fade-right">
+            <img src="../images/christopher_nolan/christopher_nolan.jpg">
+            <div>
+                <h2> Christopher Nolan </h2>
+                <p> Cunoscut pentru stilul său neliniar și cerebral, Christopher-Nolan s-a născut la 30 iulie 1970 în Londra. Pe parcursul a 15 ani, Nolan a trecut de la filme cu un buget redus la a lucra la câteva dintre cele mai mai blockbustere din toate timmpurile. La 7 ani, Nolan a început să facă filme scurte cu camera de filmat a tatălui său. În timp ce studia Literatura Engleză la facultate, el participa la întrunirile societății de film unde a învățat tehnicile și noțiunile pe care le va folosi în viitor în primul său film, „Following” (1998), film care a avut un buget de aproximativ 6000$. Punctul culminant al carierei lui Nolan a fost atunci când a primit șansa de a reînvia franciza „Batman”. El a transfromat-o într-o trilogie care a obținut mai apoi numeroase premii și nominalizări. </p>
+                <a class="button" href="../html/christopher_nolan.html"> <span></span> Filme </a>
+            </div>
+        </section>
+
+        <section class="card" id="scorsese" data-aos="fade-left">
+            <img src="../images/martin_scorsese/martin_scorsese.jpg">
+            <div>
+                <h2> Martin Scorsese </h2>
+                <p> Martin Scorsese s-a născut la 17 noiembrie 1942 în New York City și a fost crescut în Mica Italie, un cartier din Manhattan. Cartierul reprezintă o sursă de inspirație pentru câteva filme din cariera regizorului. În timp ce urma studiile de licență și de masterat, Scorsese a regizat câteva filme scurte care vor fi premiate ulterior: „The Big Shave” (1967), „Who’s That Knocking at My Door” (1967). Lucrează frecvent cu actorii Robert De Niro, prima lor colaborare fiind în 1973 pentru fimul „Mean Streets”, și Leonardo DiCaprio, cu care a colaborat de 5 ori. </p>
+                <a class="button" href="../html/martin_scorsese.html"> <span></span> Filme </a>
+            </div>
+        </section>
+
+        <section class="card" id="spielberg" data-aos="fade-right">
+            <img src="../images/steven_spielberg/steven_spielberg.jpg">
+            <div>
+                <h2> Steven Spielberg </h2>
+                <p> Una dintre cele mai influente personalitați din istoria cinematografiei, Steven Spielberg este cel mai cunoscut regizor al Hollywood-ului. Are un număr extrem de mare de filme premiate și iubite de o largă audiență, primul film care i-a propulsat cariera fiind „Jaws” (1975). S-a născut la 18 decembrie 1946 în Cincinnati, însă și-a petrecut o mare parte a copilăriei călătorind. A renunțat la facultate cu scopul de a-și dezvolta cariera în lumea cinematografiei. În mijlocul anilor 90', Spielberg a ajutat la fondarea companiei DreamWorks, care va fi ulterior responsabilă pentre multe film de succes. </p>
+                <a class="button" href="../html/steven_spielberg.html"> <span></span> Filme </a>
+            </div>
+        </section>
+
+        <section class="card" id="villeneuve" data-aos="fade-left">
+            <img src="../images/denis_villeneuve/denis_villeneuve.jpg">
+            <div>
+                <h2> Denis Villeneuve </h2>
+                <p> Denis Villeneuve este un regizor canadian născut la 3 octombrie 1967 în Québec. Și-a început cariera de regizor la Consiliul Național al Filmului din Canada. Filmele sale se remarcă prin reprezentările extrem de realiste ale violenței, temele mature abordate, folosirea melodiilor formației Radiohead și filmarea îndelungată a unor scene prin care se stabilește contextul. Și-a abandonat pasiunea pentru știință pentru a putea continuea pe drumul cinematografiei, urmând să studieze filmul la Universitatea din Québec. Este un fan al lui Christopher Nolan, iar admirația este mutuală. </p>
+                <a class="button" href="../html/denis_villeneuve.html"> <span></span> Filme </a>
+            </div>
+        </section>
+
+        <section class="card" id="tarantino" data-aos="fade-right">
+            <img src="../images/quentin_tarantino/quentin_tarantino.jpg">
+            <div>
+                <h2> Quentin Tarantino </h2>
+                <p> Quentin Tarantino s-a născut la 27 martie 1962 în Tennesse, dar s-a mutat, alături da mama lui, în California la vârsta de 4 ani. Primul său film, „Reservoir Dogs” (1992), a fost un succes enorm, făcându-l pe Tarantino o legendă a cinematografiei. Este pasionat de anumite branduri de mașini, în special Chevrolet și Cadillac, pe care le folosește adeseori în filmele sale. Se remarcă prin tehnicile inovative care îi definesc filmele, precum retrospectiva, povestirea pe capitole, și povestirea neliniară. </p>
+                <a class="button" href="../html/quentin_tarantino.html"> <span></span> Filme </a>
+            </div>
+        </section>
+
+        <section class="card" id="hitchcock" data-aos="fade-left">
+            <img src="../images/alfred_hitchcock/alfred_hitchcock.jpg">
+            <div>
+                <h2> Alfred Hitchcock </h2>
+                <p> Alfred Hitchcock s-a născut la 13 august 1899 în Leytonstone. S-a angajat pentru prima dată în 1915 la Compania de Telegrafie și Cablu Henley, perioadă în care și-a descoperit interesul pentru filme. Ca urmare, vizita adesea cinematograful și s-a alăturat lumii cinematografiei 5 ani mai tărziu. A început prin a desena decorul, primind mai apoi șansa de a continua regia filmului „Always Tell Your Wife” (1923), întrucât regizorul inițial se îmbolnăvise. Primul film regizat în totalitate de el este „Number 13” (1922), însă nu a reușit să finalizeze filmul, întrucât studioul dăduse faliment. Hitchcock și-a continuat cariera de regizor, devenind din ce în ce mai faimos în SUA, urmând ca în 1940 să se mute la Hollywood, unde măiestria lui a atins un cu totul alt nivel. A murit la 29 aprilie 1980.</p>
+                <a class="button" href="../html/alfred_htichcock.html"> <span></span> Filme </a>
+            </div>
+        </section>
+
+        <section class="card" id="pta" data-aos="fade-right">
+            <img src="../images/paul_thomas_anderson/paul_thomas_anderson.jpg">
+            <div>
+                <h2> Paul Thomas Anderson </h2>
+                <p> Născut la 26 iunie 1970 în California , Paul Thomas Anderson este unul dintre primii regizori ai generației „video store”. Anderson a început să facă filme încă din perioada copilăriei, moștenind talentul artistic de la tatăl său. Dintre filmele sale de amator cel mai renumit este „The Dirk Diggler Story” (1988). A urmat un curs de film de două zile la Universitatea din New York, urmând să lucreze ca asistent de producție la numeroase reclame și videoclipuri de muzică. Primul său feature film a fost „Sydney” (1996), cunoscut și sub numele de „Hard Eight”. Filmul a fost admirat de critici, reușind să obțină finanțarea pentru următorul său film, „Boogie Nights” (1997), o capodoperă prin care Anderson încerca să readucă la viață filmele anilor 70'. </p>
+                <a class="button" href="../html/paul_thomas_anderson.html"> <span></span> Filme </a>
+            </div>
+        </section>
+
+        <section class="card" id="fellini" data-aos="fade-left">
+            <img src="../images/federico_fellini/federico_fellini.jpg">
+            <div>
+                <h2> Federico Fellini </h2>
+                <p> Născut la 20 ianuarie 1920, Federico Fellini a fost un regizor italian cunoscut pentru stilul său aparte care amestecă realitatea cu fantezia, filmele lui fiind o combinație între realitate, vise, amintiri și dorințe. Ele au pus bazele adjectivelor în limba engleză „fellinian” și „felliniesque”, care desemnează o artă extravagantă, măreață. În cei aproape 50 de ani ai carierei sale, Fellini a reușit să obțină un premiu Palme d'Or și 4 Oscaruri pentru cel mai bun film non-englez. A murit la 31 octombrie 1933 din cauza unui atac de cord. </p>
+                <a class="button" href="../html/federico_fellini.html"> <span></span> Filme </a>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 250,
+            duration: 1000
+        });
+    </script>
+    <script src="../javascript/menu.js"></script>
+</body>
+
+</html>
